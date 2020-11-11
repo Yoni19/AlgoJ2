@@ -1,7 +1,9 @@
 const fs = require('fs');
 const bubbleSort = require('./bubleSort')
+const Fusion = require('./Fusion')
 const Insertion = require('./Insertion')
 const Selection = require('./Selection')
+const Cocktail = require('./Cocktail')
 const Rapide = require('./Rapide')
 const fileName = process.argv[2];
 
@@ -16,6 +18,8 @@ try {
     Insertion(list)
     Selection(list)
     Rapide(list)
+    Fusion(list)
+    Cocktail(list)
 } catch (error) {
     console.error(error.message);
 }
