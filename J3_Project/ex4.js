@@ -1,3 +1,5 @@
+// Est aussi la solution de l'exo6
+
 let counter1 = 0
 let tab = []
 const westView = (array) => {
